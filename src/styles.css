@@ -1,0 +1,45 @@
+.App {
+  font-family: barlow;
+}
+body {
+  background-color: cadetblue;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+h1:hover {
+  color: black;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pageNumbers li {
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.pageNumbers li.active {
+  background-color: white;
+}
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1 rem;
+  cursor: pointer;
+}
+.loadMore {
+  position: relative;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  cursor: pointer;
+}
